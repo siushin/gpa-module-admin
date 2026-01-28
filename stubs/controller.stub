@@ -4,7 +4,7 @@ namespace {{ namespace }};
 
 use Exception;
 use Illuminate\Http\JsonResponse;
-use Modules\Base\Enums\OperationActionEnum;
+use Modules\Admin\Enums\OperationActionEnum;
 use Modules\Admin\Http\Controllers\Controller;
 use Modules\{{ module }}\Models\{{ model }};
 use Siushin\LaravelTool\Attributes\ControllerName;
