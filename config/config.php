@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'name' => env('APP_NAME', 'Laravel') . '_Base',
+    'name' => env('APP_NAME', 'Laravel') . '_Admin',
 ];
