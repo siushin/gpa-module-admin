@@ -3,9 +3,9 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Modules\Base\Enums\NotificationReadTypeEnum;
-use Modules\Base\Enums\NotificationTypeEnum;
-use Modules\Base\Enums\TargetPlatformEnum;
+use Modules\Admin\Enums\NotificationReadTypeEnum;
+use Modules\Admin\Enums\NotificationTypeEnum;
+use Modules\Admin\Enums\TargetPlatformEnum;
 
 return new class extends Migration {
     /**

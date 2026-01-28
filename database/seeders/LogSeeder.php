@@ -3,13 +3,13 @@
 namespace Modules\Admin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Modules\Base\Enums\BrowserEnum;
-use Modules\Base\Enums\DeviceTypeEnum;
-use Modules\Base\Enums\HttpMethodEnum;
-use Modules\Base\Enums\LogActionEnum;
-use Modules\Base\Enums\OperatingSystemEnum;
-use Modules\Base\Enums\OperationActionEnum;
-use Modules\Base\Enums\ResourceTypeEnum;
+use Modules\Admin\Enums\BrowserEnum;
+use Modules\Admin\Enums\DeviceTypeEnum;
+use Modules\Admin\Enums\HttpMethodEnum;
+use Modules\Admin\Enums\LogActionEnum;
+use Modules\Admin\Enums\OperatingSystemEnum;
+use Modules\Admin\Enums\OperationActionEnum;
+use Modules\Admin\Enums\ResourceTypeEnum;
 use Modules\Admin\Models\Account;
 use Modules\Admin\Models\AuditLog;
 use Modules\Admin\Models\GeneralLog;

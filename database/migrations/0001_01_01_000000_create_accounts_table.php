@@ -3,8 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Modules\Base\Enums\AccountStatusEnum;
-use Modules\Base\Enums\AccountTypeEnum;
+use Modules\Admin\Enums\AccountStatusEnum;
+use Modules\Admin\Enums\AccountTypeEnum;
 
 return new class extends Migration {
     /**

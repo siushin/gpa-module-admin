@@ -4,7 +4,7 @@ namespace Modules\Admin\Database\Seeders;
 
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
-use Modules\Base\Enums\NotificationReadTypeEnum;
+use Modules\Admin\Enums\NotificationReadTypeEnum;
 use Modules\Admin\Models\Account;
 use Modules\Admin\Models\Announcement;
 use Modules\Admin\Models\Message;

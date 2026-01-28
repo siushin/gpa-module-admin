@@ -4,9 +4,9 @@ namespace Modules\Admin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
-use Modules\Base\Enums\AccountTypeEnum;
-use Modules\Base\Enums\IdCardVerifyStatusEnum;
-use Modules\Base\Enums\VerificationMethodEnum;
+use Modules\Admin\Enums\AccountTypeEnum;
+use Modules\Admin\Enums\IdCardVerifyStatusEnum;
+use Modules\Admin\Enums\VerificationMethodEnum;
 use Modules\Admin\Models\Account;
 use Modules\Admin\Models\AccountProfile;
 use Modules\Admin\Models\AccountSocial;

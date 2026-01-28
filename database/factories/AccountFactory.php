@@ -4,7 +4,7 @@ namespace Modules\Admin\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
-use Modules\Base\Enums\AccountTypeEnum;
+use Modules\Admin\Enums\AccountTypeEnum;
 use Modules\Admin\Models\Account;
 
 /**

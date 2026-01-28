@@ -4,7 +4,7 @@ namespace Modules\Admin\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\JsonResponse;
-use Modules\Base\Enums\OperationActionEnum;
+use Modules\Admin\Enums\OperationActionEnum;
 use Modules\Admin\Models\AuditLog;
 use Modules\Admin\Models\GeneralLog;
 use Modules\Admin\Models\LoginLog;

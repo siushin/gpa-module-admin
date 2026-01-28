@@ -3,12 +3,12 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Modules\Base\Enums\BrowserEnum;
-use Modules\Base\Enums\DeviceTypeEnum;
-use Modules\Base\Enums\HttpMethodEnum;
-use Modules\Base\Enums\OperatingSystemEnum;
-use Modules\Base\Enums\OperationActionEnum;
-use Modules\Base\Enums\ResourceTypeEnum;
+use Modules\Admin\Enums\BrowserEnum;
+use Modules\Admin\Enums\DeviceTypeEnum;
+use Modules\Admin\Enums\HttpMethodEnum;
+use Modules\Admin\Enums\OperatingSystemEnum;
+use Modules\Admin\Enums\OperationActionEnum;
+use Modules\Admin\Enums\ResourceTypeEnum;
 use Siushin\LaravelTool\Enums\RequestSourceEnum;
 
 return new class extends Migration {

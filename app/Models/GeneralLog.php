@@ -6,7 +6,7 @@ use Exception;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Modules\Base\Enums\LogActionEnum;
+use Modules\Admin\Enums\LogActionEnum;
 use Siushin\LaravelTool\Cases\Json;
 use Siushin\LaravelTool\Enums\RequestSourceEnum;
 use Siushin\LaravelTool\Traits\ModelTool;

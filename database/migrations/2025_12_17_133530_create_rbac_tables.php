@@ -3,9 +3,9 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Modules\Base\Enums\AccountTypeEnum;
-use Modules\Base\Enums\MenuTypeEnum;
-use Modules\Base\Enums\SysParamFlagEnum;
+use Modules\Admin\Enums\AccountTypeEnum;
+use Modules\Admin\Enums\MenuTypeEnum;
+use Modules\Admin\Enums\SysParamFlagEnum;
 
 return new class extends Migration {
     /**

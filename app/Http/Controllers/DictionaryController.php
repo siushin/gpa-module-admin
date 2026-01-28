@@ -5,7 +5,7 @@ namespace Modules\Admin\Http\Controllers;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Modules\Base\Enums\OperationActionEnum;
+use Modules\Admin\Enums\OperationActionEnum;
 use Modules\Admin\Models\Dictionary;
 use Modules\Admin\Models\DictionaryCategory;
 use Psr\Container\ContainerExceptionInterface;

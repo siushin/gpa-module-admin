@@ -3,7 +3,7 @@
 namespace Modules\Admin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Modules\Base\Enums\AccountTypeEnum;
+use Modules\Admin\Enums\AccountTypeEnum;
 use Modules\Admin\Models\Account;
 use Modules\Admin\Models\Menu;
 use Modules\Admin\Models\Role;

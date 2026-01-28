@@ -5,7 +5,7 @@ namespace Modules\Admin\Http\Controllers;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Modules\Base\Enums\OperationActionEnum;
+use Modules\Admin\Enums\OperationActionEnum;
 use Modules\Base\Logics\AppLogic;
 use Modules\Admin\Models\Module as ModuleModel;
 use Siushin\LaravelTool\Attributes\ControllerName;

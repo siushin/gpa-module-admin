@@ -3,7 +3,7 @@
 namespace Modules\Admin\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Modules\Base\Enums\AccountTypeEnum;
+use Modules\Admin\Enums\AccountTypeEnum;
 
 /**
  * 模型：账号部门关联

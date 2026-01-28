@@ -4,8 +4,8 @@ namespace Modules\Admin\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\JsonResponse;
-use Modules\Base\Enums\NotificationReadTypeEnum;
-use Modules\Base\Enums\OperationActionEnum;
+use Modules\Admin\Enums\NotificationReadTypeEnum;
+use Modules\Admin\Enums\OperationActionEnum;
 use Modules\Admin\Models\Announcement;
 use Modules\Admin\Models\NotificationRead;
 use Psr\Container\ContainerExceptionInterface;

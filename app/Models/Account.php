@@ -14,9 +14,9 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Hash;
 use Laravel\Sanctum\HasApiTokens;
 use Modules\Base\Database\Factories\AccountFactory;
-use Modules\Base\Enums\AccountTypeEnum;
-use Modules\Base\Enums\OperationActionEnum;
-use Modules\Base\Enums\ResourceTypeEnum;
+use Modules\Admin\Enums\AccountTypeEnum;
+use Modules\Admin\Enums\OperationActionEnum;
+use Modules\Admin\Enums\ResourceTypeEnum;
 use Siushin\Util\Traits\ParamTool;
 
 /**
