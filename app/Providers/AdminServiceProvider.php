@@ -24,7 +24,10 @@ class AdminServiceProvider extends ServiceProvider
         $this->registerCommandSchedules();
         $this->registerTranslations();
         $this->registerConfig();
-        $this->loadMigrationsFrom(module_path($this->name, 'database/migrations'));
+        // 加载数据库迁移文件
+        if (is_dir(module_path($this->name, 'database/migrations'))) {
+            $this->loadMigrationsFrom(module_path($this->name, 'database/migrations'));
+        }
     }
 
     /**
