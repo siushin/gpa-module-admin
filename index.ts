@@ -3,7 +3,7 @@
  * 后台管理业务模块，包含所有管理页面和服务
  */
 
-import type { ModuleMeta } from '../types';
+import type { ModuleMeta } from '../base/types';
 import menuLocales from './locales/zh-CN/menu';
 import routes from './routes';
 
