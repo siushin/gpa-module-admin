@@ -1,6 +1,6 @@
 {
-    "name": "GPAdmin-api/admin",
-    "description": "GPAdmin-api 管理后台模块",
+    "name": "gpadmin/admin",
+    "description": "GPAdmin 管理后台模块",
     "authors": [
         {
             "name": "siushin",
