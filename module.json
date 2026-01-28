@@ -1,0 +1,33 @@
+{
+    "name": "Admin",
+    "alias": "admin",
+    "title": "管理后台",
+    "description": "GPAdmin-api 管理后台模块",
+    "keywords": [
+        "管理",
+        "后台",
+        "管理员",
+        "用户"
+    ],
+    "priority": 0,
+    "source": "官方",
+    "providers": [
+        "Modules\\Admin\\Providers\\AdminServiceProvider"
+    ],
+    "files": [],
+    "extra": {
+        "meta": {
+            "module_icon": "SettingOutlined",
+            "module_version": "1.0.0",
+            "module_status": 1,
+            "module_is_core": 0,
+            "module_is_installed": 1,
+            "module_author": "siushin",
+            "module_author_email": "siushin@163.com",
+            "module_homepage": "https://gpadmin.siushin.com",
+            "module_dependencies": [
+                "Base"
+            ]
+        }
+    }
+}
