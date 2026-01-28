@@ -4,11 +4,11 @@ namespace Modules\Admin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Modules\Base\Enums\AccountTypeEnum;
-use Modules\Base\Models\Account;
-use Modules\Base\Models\Menu;
-use Modules\Base\Models\Role;
-use Modules\Base\Models\RoleMenu;
-use Modules\Base\Models\UserRole;
+use Modules\Admin\Models\Account;
+use Modules\Admin\Models\Menu;
+use Modules\Admin\Models\Role;
+use Modules\Admin\Models\RoleMenu;
+use Modules\Admin\Models\UserRole;
 
 /**
  * 数据填充：RBAC权限管理

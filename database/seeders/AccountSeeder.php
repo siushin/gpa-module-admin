@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\Hash;
 use Modules\Base\Enums\AccountTypeEnum;
 use Modules\Base\Enums\IdCardVerifyStatusEnum;
 use Modules\Base\Enums\VerificationMethodEnum;
-use Modules\Base\Models\Account;
-use Modules\Base\Models\AccountProfile;
-use Modules\Base\Models\AccountSocial;
-use Modules\Base\Models\Admin;
-use Modules\Base\Models\Company;
-use Modules\Base\Models\User;
+use Modules\Admin\Models\Account;
+use Modules\Admin\Models\AccountProfile;
+use Modules\Admin\Models\AccountSocial;
+use Modules\Admin\Models\Admin;
+use Modules\Admin\Models\Company;
+use Modules\Admin\Models\User;
 use Siushin\LaravelTool\Enums\GenderTypeEnum;
 use Siushin\LaravelTool\Enums\SocialTypeEnum;
 

@@ -3,9 +3,9 @@
 namespace Modules\Admin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Modules\Base\Models\AccountModule;
-use Modules\Base\Models\Admin;
-use Modules\Base\Models\Module;
+use Modules\Admin\Models\AccountModule;
+use Modules\Admin\Models\Admin;
+use Modules\Admin\Models\Module;
 
 /**
  * 数据填充：账号模块关联

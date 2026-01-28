@@ -3,7 +3,7 @@
 namespace Modules\Admin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Modules\Base\Models\Company;
+use Modules\Admin\Models\Company;
 
 /**
  * 数据填充：公司

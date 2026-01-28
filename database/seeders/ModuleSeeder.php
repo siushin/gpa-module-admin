@@ -3,7 +3,7 @@
 namespace Modules\Admin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Modules\Base\Models\Module;
+use Modules\Admin\Models\Module;
 
 /**
  * 数据填充：模块管理

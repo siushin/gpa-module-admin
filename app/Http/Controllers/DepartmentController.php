@@ -6,7 +6,7 @@ use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Modules\Base\Enums\OperationActionEnum;
-use Modules\Base\Models\Department;
+use Modules\Admin\Models\Department;
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\NotFoundExceptionInterface;
 use Siushin\LaravelTool\Attributes\ControllerName;

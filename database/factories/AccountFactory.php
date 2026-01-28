@@ -5,7 +5,7 @@ namespace Modules\Admin\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 use Modules\Base\Enums\AccountTypeEnum;
-use Modules\Base\Models\Account;
+use Modules\Admin\Models\Account;
 
 /**
  * @extends Factory<Account>

@@ -14,7 +14,7 @@ use Modules\Base\Enums\ResourceTypeEnum;
 use Siushin\LaravelTool\Enums\SocialTypeEnum;
 use Siushin\Util\Traits\ParamTool;
 use Throwable;
-use Modules\Base\Models\UserRole;
+use Modules\Admin\Models\UserRole;
 
 /**
  * 模型：客户

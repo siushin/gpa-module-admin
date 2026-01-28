@@ -10,11 +10,11 @@ use Modules\Base\Enums\LogActionEnum;
 use Modules\Base\Enums\OperatingSystemEnum;
 use Modules\Base\Enums\OperationActionEnum;
 use Modules\Base\Enums\ResourceTypeEnum;
-use Modules\Base\Models\Account;
-use Modules\Base\Models\AuditLog;
-use Modules\Base\Models\GeneralLog;
-use Modules\Base\Models\LoginLog;
-use Modules\Base\Models\OperationLog;
+use Modules\Admin\Models\Account;
+use Modules\Admin\Models\AuditLog;
+use Modules\Admin\Models\GeneralLog;
+use Modules\Admin\Models\LoginLog;
+use Modules\Admin\Models\OperationLog;
 use Siushin\LaravelTool\Enums\RequestSourceEnum;
 
 /**

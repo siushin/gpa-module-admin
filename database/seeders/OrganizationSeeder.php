@@ -5,8 +5,8 @@ namespace Modules\Admin\Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use Modules\Base\Models\Dictionary;
-use Modules\Base\Models\Organization;
+use Modules\Admin\Models\Dictionary;
+use Modules\Admin\Models\Organization;
 
 /**
  * 数据填充：组织架构（行政区划）

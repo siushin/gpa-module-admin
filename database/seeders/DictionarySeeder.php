@@ -5,8 +5,8 @@ namespace Modules\Admin\Database\Seeders;
 use Illuminate\Database\Seeder;
 use Modules\Base\Enums\DictionaryCategoryEnum;
 use Modules\Base\Enums\SysParamFlagEnum;
-use Modules\Base\Models\Dictionary;
-use Modules\Base\Models\DictionaryCategory;
+use Modules\Admin\Models\Dictionary;
+use Modules\Admin\Models\DictionaryCategory;
 use Siushin\LaravelTool\Enums\RequestSourceEnum;
 use Siushin\LaravelTool\Enums\UploadFileTypeEnum;
 

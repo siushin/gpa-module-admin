@@ -5,11 +5,11 @@ namespace Modules\Admin\Database\Seeders;
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 use Modules\Base\Enums\NotificationReadTypeEnum;
-use Modules\Base\Models\Account;
-use Modules\Base\Models\Announcement;
-use Modules\Base\Models\Message;
-use Modules\Base\Models\NotificationRead;
-use Modules\Base\Models\SystemNotification;
+use Modules\Admin\Models\Account;
+use Modules\Admin\Models\Announcement;
+use Modules\Admin\Models\Message;
+use Modules\Admin\Models\NotificationRead;
+use Modules\Admin\Models\SystemNotification;
 
 /**
  * 数据填充：通知管理
